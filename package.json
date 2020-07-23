@@ -4,7 +4,6 @@
   "description": "ag-Grid Protractor Testing Utilities",
   "main": "index.js",
   "scripts": {
-    "postinstall": "webdriver-manager update",
     "tsc": "tsc",
     "test": "npm run tsc && protractor e2e.conf.js"
   },
